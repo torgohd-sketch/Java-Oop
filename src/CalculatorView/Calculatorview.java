@@ -32,19 +32,12 @@ public class Calculatorview {
     }
 
 
-    public double PedirNumero1(){
+    public double PedirNumero(String mensaje){
 
-        String Numero1 = JOptionPane.showInputDialog(null, "ingresa numero 1");
-        double number1 = Integer.parseInt(Numero1);
-        return number1;
+        String Numero1 = JOptionPane.showInputDialog(null, mensaje);
+        double numero = Double.parseDouble(Numero1);
+        return numero;
 
-    }
-
-    public double pedirNumero2(){
-
-        String Numero2 = JOptionPane.showInputDialog(null, "ingresa numero 2");
-        double number2 = Integer.parseInt(Numero2);
-        return number2;
     }
 
     public boolean Volver(){
