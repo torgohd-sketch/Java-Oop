@@ -3,16 +3,16 @@ package CalculatorModel;
 
 public class Calculatormodel {
 
-public int sumar(int number1, int number2) {
+public double sumar(double number1, double number2) {
 return number1 + number2;
     }
-public int restar(int number1, int number2) {
+public double restar(double number1, double number2) {
 return number1 - number2;
     }
-public int multiplicar(int number1, int number2) {
+public double multiplicar(double number1, double number2) {
 return number1 * number2;   
     }
-public double dividir(int number1, int number2) {
+public double dividir(double number1, double number2) {
 if (number2 == 0) {
 throw new IllegalArgumentException("No se puede dividir por cero");
         }
